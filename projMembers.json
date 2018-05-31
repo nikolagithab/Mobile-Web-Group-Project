@@ -1,0 +1,28 @@
+{
+"students": 
+{
+	"studentRec": [ 
+	{
+		"name" : "Jaime Convery",
+		"login" : "converyj",
+		"student-number" : 991393680,
+		"image" : "jaime.jpg",
+		"icon" : "jaime"
+	},
+	{
+		"name" : "Wassim Shamass",
+		"login" : "shamass",
+		"student-number" : 991446742,
+		"image" : "wassim.jpg",
+		"icon" : "wassim"
+		},
+	{
+		"name" : "Nikola Petrovski",
+		"login" : "pertovsn",
+		"student-number" : 991466135,
+		"image" : "nikola.jpg",
+		"icon" : "nikola"
+		}
+	]
+}
+}

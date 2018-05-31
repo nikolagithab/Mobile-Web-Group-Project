@@ -1,0 +1,370 @@
+{
+  "type": "USDA: Code 007",
+  "describedBy": "https://project-open-data.cio.gov/v1.1/schema/catalog.json",
+  "conformsTo": "https://project-open-data.cio.gov/v1.1/schema",
+  "context": "https://project-open-data.cio.gov/v1.1/schema/data.jsonld",
+  "setinfo": [
+    {
+      "nameid": "USDA-ERS-01352",
+      "contactPoint": {
+        "hasEmail": "mailto:tcapehart@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Thomas Capehart",
+		"icon": "/images/agriculture.jpg"
+      },
+      "description": "The Feed Grains Database contains statistics on four feed grains (corn, grain sorghum, barley, and oats), foreign coarse grains (feed grains plus rye, millet, and mixed grains), hay, and related items.",
+      "title": "Feed Grains Database",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/feed-grains-database/feed-grains-custom-query.aspx",
+          "mediaType": "text/html",
+          "title": "Query tool"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "describedBy": "http://www.ers.usda.gov/data-products/feed-grains-database/documentation.aspx",
+      "spatial": "United States",
+      "issued": "2013-12-16",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "landingPage": "https://www.ers.usda.gov/data-products/feed-grains-database/feed-grains-yearbook-tables/#Zipped%20CSV%20files",
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1M"
+    },
+    {
+      "nameid": "USDA-ERS-00001",
+      "accessLevel": "non-public",
+      "contactPoint": {
+        "hasEmail": "mailto:edohlman@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Erik Dohlman",
+				"icon": "/images/crops.jpg"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "Feedinfo news service is a single source for both domestic and international news, data, and scientific papers on the feed livestock complex.  ERS economists and market analysts depend on Feedinfo News Service as a timely source of data relating to domestic and international livestock and feed. Data provided by Feedinfo News Service includes international shipping rates, country specific data on grains, feed, oilseed, and livestock supply and demand data that is invaluable for the USDA interagency process.",
+      "title": "FeedInfo News Service Global Data Systems",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.feedinfo.com/products.aspx",
+          "mediaType": "text/html",
+          "title": "Vendor Website"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "dataQuality": true,
+      "rights": "Purchased data set under non-disclosure agreement",
+      "modified": "2014-02-28",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service:  Market and Trade Economics Division"
+      },
+      "spatial": "Global"
+    },
+    {
+      "nameid": "USDA-ERS-04059",
+      "contactPoint": {
+        "hasEmail": "mailto:WebAdmin@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Website Administrator",
+				"icon": "/images/USDA.png"
+      },
+      "description": "This system provides annual data on U.S. imports and exports of selected fertilizer types. These data are based on U.S. Merchandise Imports and Exports, released monthly by the U.S. Department of Commerce, Foreign Trade Division. The data reported here cover imports from 1995 to 2012 and exports from 1990 to 2012 for 26 major fertilizer products and materials, and for 82 major trading countries.",
+      "title": "Fertilizer Imports/Exports",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/fertilizer-importsexports/custom-queries.aspx",
+          "mediaType": "text/html",
+          "title": "Query tool"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "describedBy": "http://www.ers.usda.gov/data-products/fertilizer-importsexports/documentation.aspx",
+      "spatial": "United States",
+      "issued": "2013-05-20",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-04082",
+      "contactPoint": {
+        "hasEmail": "mailto:rnehring@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Richard Nehring",
+				"icon": "/images/pesticides.jpg"
+      },
+      "description": "This product brings together 1960-2012 data on fertilizer consumption in the United States by plant nutrient and major selected product, as well as consumption of mixed fertilizers, secondary nutrients, and micronutrients. Share of crop area receiving fertilizer and fertilizer use per receiving acre, by nutrient, are presented for the major producing States for corn, cotton, soybeans, and wheat. Additional data include fertilizer farm prices and indices of wholesale fertilizer price. Fertilizer price data are through 2013.",
+      "title": "Fertilizer Use and Price",
+      "distribution": [
+        {
+          "downloadURL": "https://www.ers.usda.gov/data-products/fertilizer-use-and-price.aspx",
+          "mediaType": "dcat:Distribution",
+          "title": "Data file"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "describedBy": "http://www.ers.usda.gov/data-products/fertilizer-use-and-price.aspx",
+      "spatial": "United States",
+      "issued": "2013-07-12",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-26131",
+      "contactPoint": {
+        "hasEmail": "mailto:sverploeg@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Michele Ver Ploeg",
+				"icon": "/images/food.jpg"
+      },
+      "description": "The Food Access Research Atlas presents a spatial overview of food access indicators for low-income and other census tracts using different measures of supermarket accessibility, provides food access data for populations within census tracts, and offers census-tract-level data on food access that can be downloaded for community planning or research purposes.",
+      "title": "Food Access Research Atlas",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/food-access-research-atlas/go-to-the-atlas.aspx",
+          "mediaType": "text/html",
+          "title": "Interactive map"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2015-01-29",
+      "describedBy": "http://www.ers.usda.gov/data-products/food-access-research-atlas/documentation.aspx",
+      "theme": [
+        "geospatial"
+      ],
+      "spatial": "United States",
+      "issued": "2013-12-05",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "dataQuality": true,
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-00131",
+      "contactPoint": {
+        "hasEmail": "mailto:jbuzby@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Jean Buzby",
+				"icon": "/images/diet.jpg"
+      },
+      "description": "The ERS Food Availability (Per Capita) Data System (FADS) includes three distinct but related data series on food and nutrient availability for consumption. The data serve as popular proxies for actual consumption at the national level. Food availability data are now updated through 2011, the most recent year available; these data are the foundation for the other two series. Loss-adjusted food availability data are also available through 2011 for most products but are preliminary estimates. Nutrient availability data are provided through 2006, as this data series has not yet been updated beyond 2006.",
+      "title": "Food Availability (Per Capita) Data System",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "https://www.ers.usda.gov/data-products/food-availability-per-capita-data-system/food-availability-per-capita-data-system/#Food%20Availability",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with links to Excel files"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "describedBy": "http://www.ers.usda.gov/data-products/food-availability-(per-capita)-data-system/glossary.aspx",
+      "spatial": "United States",
+      "issued": "2013-12-18",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-00068",
+      "contactPoint": {
+        "hasEmail": "mailto:blin@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Biing-Hwan Lin",
+				"icon": "/images/consumption.jpg"
+      },
+      "description": "Food consumption in terms of the Dietary Guidelines for Americans’ food groups is reported for all sources and the total U.S. population, as well as by food source, children age 2-19, and adults age 20 and older.",
+      "title": "Food Consumption and Nutrient Intakes",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/food-consumption-and-nutrient-intakes.aspx",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with links to Excel files"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-03-19",
+      "issued": "2011-06-15",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, U.S. Department of Agriculture"
+      }
+    },
+    {
+      "nameid": "USDA-ERS-25981",
+      "contactPoint": {
+        "hasEmail": "mailto:pcanning@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Patrick Canning",
+				"icon": "/images/costs.jpg"
+      },
+      "description": "The food dollar series measures annual expenditures by U.S. consumers on domestically produced food. This data series is composed of three primary series - the marketing bill series, the industry group series, and the primary factor series - that shed light on different aspects of the food supply chain. The three series show three different ways to split up the same food dollar.",
+      "title": "Food Dollar Series",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/food-dollar-series/food-dollar-application.aspx",
+          "mediaType": "text/html",
+          "title": "Query tool"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-07-24",
+      "describedBy": "http://www.ers.usda.gov/data-products/food-dollar-series/glossary.aspx",
+      "spatial": "United States",
+      "issued": "2013-12-05",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-02033",
+      "contactPoint": {
+        "hasEmail": "mailto:breneman@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Vince Breneman",
+				"icon": "/images/healthy.jpg"
+      },
+      "description": "Food environment factors--such as store/restaurant proximity, food prices, food and nutrition assistance programs, and community characteristics--interact to influence food choices and diet quality. Research is beginning to document the complexity of these interactions, but more is needed to identify causal relationships and effective policy interventions. The objectives of the Atlas are\r\nto assemble statistics on food environment indicators to stimulate research on the determinants of food choices and diet quality, and to provide a spatial overview of a community's ability to access healthy food and its success in doing so.",
+      "title": "Food Environment Atlas",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/food-environment-atlas/go-to-the-atlas.aspx",
+          "mediaType": "text/html",
+          "title": "Interactive map"
+        }
+      ],
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2015-01-29",
+      "describedBy": "http://www.ers.usda.gov/data-products/food-environment-atlas/data-access-and-documentation-downloads.aspx",
+      "theme": [
+        "geospatial"
+      ],
+      "spatial": "United States",
+      "issued": "2013-12-05",
+      "accessLevel": "public",
+      "programCode": [
+        "005:041"
+      ],
+      "license": "https://creativecommons.org/licenses/by/4.0",
+      "dataQuality": true,
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, Department of Agriculture"
+      },
+      "accrualPeriodicity": "R/P1Y"
+    },
+    {
+      "nameid": "USDA-ERS-00069",
+      "accessLevel": "public",
+      "contactPoint": {
+        "hasEmail": "mailto:aclauson@ers.usda.gov",
+        "type": "vcard:Contact",
+        "fn": "Annette Clauson",
+		"icon": "/images/buying.jpg"
+      },
+      "programCode": [
+        "005:041"
+      ],
+      "description": "The ERS Food Expenditure Series annually measures total U.S. food expenditures, including purchases by consumers, governments, businesses, and nonprofit organizations. The ERS Food Expenditure Series contributes to the analysis of U.S. food production and consumption by constructing a comprehensive measure of the total value of all food expenditures by final purchasers. This series annually measures total U.S. food expenditures, including purchases by consumers, governments, businesses, and nonprofit organizations. Because the term expenditure is often associated with household decisionmaking, it is important to recognize that ERS's series also includes nonhousehold purchases. For example, the series includes the dollar value of domestic food purchases by military personnel and their dependents at military commissary stores and exchanges, the value of commodities and food dollars donated by the Federal government to schools, and the value of food purchased by airlines for serving during flights.",
+      "title": "Food Expenditures",
+      "distribution": [
+        {
+          "type": "dcat:Distribution",
+          "downloadURL": "http://www.ers.usda.gov/data-products/food-expenditures.aspx",
+          "mediaType": "application/vnd.ms-excel",
+          "title": "Web page with links to Excel files"
+        }
+      ],
+      "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "bureauCode": [
+        "005:13"
+      ],
+      "modified": "2014-06-17",
+      "publisher": {
+        "type": "org:Organization",
+        "name": "Economic Research Service, U.S. Department of Agriculture"
+      },
+      "describedBy": "http://www.ers.usda.gov/data-products/food-expenditures/documentation.aspx",
+      "accrualPeriodicity": "R/P1Y",
+      "issued": "2013-12-17"
+    }	
+	]
+}

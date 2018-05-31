@@ -1,0 +1,44 @@
+/*
+Authors: 
+	Jaime Convery / 991393680
+	Nikola Petrovski / 991466135
+	Wassim Shamass / shamass 991446742
+File Name: mystyles.css
+Date: 2018-04-17
+Professor: Ann Cadger
+*/
+
+h1 {
+	margin: 0;
+	
+}
+h2 {
+	margin: 0;
+}
+
+#image {
+	padding: 10px;
+}
+
+/* Members */
+.ui-icon-jaime:after { background-image: url("../images/jaime.jpg"); background-size: 22px 22px; }
+.ui-icon-wassim:after { background-image: url("../images/wassim.jpg"); background-size: 22px 22px; }
+.ui-icon-nikola:after { background-image: url("../images/nikola.jpg"); background-size: 22px 22px; }
+
+/* Food */
+.ui-icon-avocado:after { background-image: url("../images/avocado.jpg"); background-size: 22px 22px; }
+.ui-icon-peanuts:after { background-image: url("../images/peanuts.jpg"); background-size: 22px 22px; }
+.ui-icon-peanutButter:after { background-image: url("../images/peanutButter.jpg"); background-size: 22px 22px; }
+.ui-icon-mayonnaise:after { background-image: url("../images/mayonnaise.jpg"); background-size: 22px 22px; }
+
+/* USDAs */
+.ui-icon-USDA-ERS-01352:after { background-image: url("../images/agriculture.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-00001:after { background-image: url("../images/crops.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-04059:after { background-image: url("../images/USDA.png"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-04082:after { background-image: url("../images/pesticides.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-26131:after { background-image: url("../images/food.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-00131:after { background-image: url("../images/diet.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-00068:after { background-image: url("../images/consumption.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-25981:after { background-image: url("../images/costs.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-02033:after { background-image: url("../images/healthy.jpg"); background-size: 22px 22px; }
+.ui-icon-USDA-ERS-00069:after { background-image: url("../images/buying.jpg"); background-size: 22px 22px; }

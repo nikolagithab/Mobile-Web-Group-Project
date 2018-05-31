@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--
+Authors: 
+	Jaime Convery / 991393680
+	Nikola Petrovski / 991466135
+	Wassim Shamass / shamass 991446742
+File Name: index.html
+Date: 2018-04-17
+Professor: Ann Cadger
+-->
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+	<link rel="stylesheet" href="css/jquery.mobile.css">
+	<link rel="stylesheet" href="css/mystyles.css">
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.js"></script>
+	<script src="js/myscript.js"></script>
+</head>
+<body>
+	<div data-role="page" id="main">
+		<header data-role="header">
+			<h1></h1>
+			<h3></h3>
+			
+			
+		</header>
+
+		<section class="ui-content">
+		<div class="ui-grid-a">
+			<div class="ui-block-a">
+				
+				<img src="images/Oils.jpg" width="300">
+			</div>
+			<div class="ui-block-b">
+				<a href='#JSON' class='ui-btn'>USDA</a>
+				<a href='#XML' class='ui-btn'>Oils</a>
+			</div>
+		</div>
+		</section>
+
+		<footer data-role="footer">
+			<nav data-role="navbar" id="nav1"></nav>
+		</footer>
+	</div> 
+<!-- END page "" -->
+
+	<div data-role="page" id="studentInfo">
+		<header data-role="header">
+			<h1></h1>
+			<h3></h3>
+		</header>
+		<section class="ui-content" id="popup">
+		<h2></h2>
+		</section>
+	</div>
+<!-- END page "" -->
+	
+<!-- page id="" -->
+	<div data-role="page" id="JSON">
+		<header data-role="header">
+			<a href="#main" class='ui-btn ui-icon-back ui-btn-icon-notext'></a>
+			<h1></h1>
+			<h3></h3>
+		</header>
+		<section class="ui-content" role="main" id="jsonContent">
+			<div class='ui-grid-a' data-role='collapsible-set' id="jsonContentDiv"></div>
+		</section>
+		<footer data-role="footer">
+			<nav data-role="navbar" id="nav2"></nav>
+		</footer>
+	</div>
+<!-- END page id="" -->
+
+<!-- page id="XML" -->
+	<div data-role="page" id="XML">
+	<header data-role="header">
+		<a href="#main" class='ui-btn ui-icon-back ui-btn-icon-notext'></a>
+		<h1></h1> 
+		<h3></h3>
+	</header>
+	<section class="ui-content" id='xmlContent' data-role='collapsible-set'></section>
+	<footer data-role="footer">
+		<nav data-role="navbar" id="nav3"></nav>
+	</footer>
+	</div>
+<!-- END page id="XML" -->
+</body>
+</html>

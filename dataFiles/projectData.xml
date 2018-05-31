@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+
+-->
+<foodGroup>
+	<name>Oils</name>
+	<url>https://www.choosemyplate.gov/oils</url>
+	<food>
+		<name>Avocado</name>
+		<pic>avocado</pic>
+		<calories>234</calories>
+		<nutrition>
+			<vitamins>A, C, B-6, Calcium, Iron, Magnesium</vitamins>
+			<sodium>10</sodium>
+			<fat>21.4</fat>
+		</nutrition>
+	</food>
+	<food>
+		<name>Peanut butter</name>
+		<pic>peanutButter</pic>
+		<calories>1,542</calories>
+		<nutrition>
+			<vitamins>B-6, Calcium, Iron, Magnesium</vitamins>
+			<sodium>44</sodium>
+			<fat>132.5</fat>
+		</nutrition>
+	</food>
+	<food>
+		<name>Peanuts, dry roasted</name>
+		<pic>peanuts</pic>
+		<calories>857</calories>
+		<nutrition>
+			<vitamins></vitamins>
+			<sodium>9</sodium>
+			<fat>72.5</fat>
+		</nutrition>
+	</food>
+	<food>
+		<name>Mayonnaise</name>
+		<pic>mayonnaise</pic>
+		<calories>1,495</calories>
+		<nutrition>
+			<vitamins>A, C, D, Calcium, Iron, Magnesium</vitamins>
+			<sodium>1,397</sodium>
+			<fat>164.7</fat>
+		</nutrition>
+	</food>
+</foodGroup>
